@@ -1,0 +1,21 @@
+@font-face {
+    font-family: GothamBook;
+    src: url("../../fonts/GothamBook.otf");
+}
+
+body {
+    font-family: GothamBook;
+}
+
+nav {
+    padding: 0!important;
+}
+#Sprint{
+    background-image: url('../../media/img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
