@@ -1,0 +1,26 @@
+@font-face {
+    font-family: GothamBook;
+    src: url("../fonts/GothamBook.otf");
+}
+
+body {
+    font-family: GothamBook;
+}
+
+nav {
+    padding: 0!important;
+}
+
+#mainBody {
+    background-image: url("../media/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: GothamBook;
+    background-attachment: fixed;
+    /*background-position: center;*/
+}
+
+#texto1{
+  
+    color:white;
+}

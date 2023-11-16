@@ -12,10 +12,23 @@ nav {
 }
 
 #mainBody {
-    background-image: url("../media/img/background.png");
+    background-image: url("../media/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: GothamBook;
     background-attachment: fixed;
     /*background-position: center;*/
+}
+A {
+    text-decoration: none;
+} 
+
+#texto1{
+  
+    color:white;
+}
+
+#texto2{
+ 
+    color:black;
 }
