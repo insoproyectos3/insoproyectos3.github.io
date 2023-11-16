@@ -25,11 +25,11 @@
                                 Integrantes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Marcos Díez Pérez</a></li>
-                                <li><a class="dropdown-item" href="#">Pablo Izquierdo Martínez</a></li>
-                                <li><a class="dropdown-item" href="#">Agustin Levon Ghio Kissoyan</a></li>
-                                <li><a class="dropdown-item" href="#">Juan Luis Soto Martínez</a></li>
-                                <li><a class="dropdown-item" href="#">Oscar Viudez Cuevas</a></li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#MARCOSstaticBackdrop">Marcos Díez Pérez</a></li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#PABLOstaticBackdrop">Pablo Izquierdo Martínez</a></li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#AGUSTINstaticBackdrop">Agustin Levon Ghio Kissoyan</a></li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#JUANLUISstaticBackdrop">Juan Luis Soto Martínez</a></li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#OSCARstaticBackdrop">Oscar Viudez Cuevas</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link text-light" href="./desarrollo/">Desarrollo del Proyecto</a></li>
@@ -44,13 +44,13 @@
         <br>
 
         <div class="container-fluid mt-5" id="mainBody">
-            <div class="row p-3 fw-bolder justify-content-start text-start">
+            <div class="row p-3 fw-bolder justify-content-start text-start" data-bs-toggle="modal" data-bs-target="#OSCARstaticBackdrop">
                 <div class="col-2 text-center d-flex align-items-center justify-content-center">
                     <img src="media/img/pfp.jpeg" style="max-width: 150px; max-height: 150px;" class="rounded-circle">
                 </div>
                 <div class="col fs-2 justify-content-start">
                     <div class="row justify-content-start mb-3">
-                        Óscar Viudez Cuevas
+                        Oscar Viudez Cuevas
                     </div>
                     <div class="row justify-content-start fs-5 text-body-secondary">
                         Lore Ipsum
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row p-3 bg-light justify-content-end text-end fw-bolder">
+            <div class="row p-3 bg-light justify-content-end text-end fw-bolder" data-bs-toggle="modal" data-bs-target="#AGUSTINstaticBackdrop">
                 <div class="col fs-2 justify-content-end">
                     <div class="row justify-content-end mb-3">
                         Agustin Levon Ghio Kissoyan
@@ -82,7 +82,7 @@
                     <img src="media/img/pfp.jpeg" style="max-width: 150px; max-height: 150px;" class="rounded-circle">
                 </div>
             </div>
-            <div class="row p-3 fw-bolder justify-content-start text-start">
+            <div class="row p-3 fw-bolder justify-content-start text-start" data-bs-toggle="modal" data-bs-target="#JUANLUISstaticBackdrop">
                 <div class="col-2 text-center d-flex align-items-center justify-content-center">
                     <img src="media/img/pfp.jpeg" style="max-width: 150px; max-height: 150px;" class="rounded-circle">
                 </div>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row p-3 bg-light justify-content-end text-end fw-bolder">
+            <div class="row p-3 bg-light justify-content-end text-end fw-bolder" data-bs-toggle="modal" data-bs-target="#PABLOstaticBackdrop">
                 <div class="col fs-2 justify-content-end">
                     <div class="row justify-content-end mb-3">
                         Pablo Izquierdo Martínez
@@ -120,7 +120,7 @@
                     <img src="media/img/pfp.jpeg" style="max-width: 150px; max-height: 150px;" class="rounded-circle">
                 </div>
             </div>
-            <div class="row p-3 fw-bolder justify-content-start text-start">
+            <div class="row p-3 fw-bolder justify-content-start text-start" data-bs-toggle="modal" data-bs-target="#MARCOSstaticBackdrop">
                 <div class="col-2 text-center d-flex align-items-center justify-content-center">
                     <img src="media/img/pfp.jpeg" style="max-width: 150px; max-height: 150px;" class="rounded-circle">
                 </div>
@@ -136,6 +136,81 @@
                     </div>
                     <div class="row justify-content-start fs-5 text-body-secondary">
                         Lore Ipsum
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Oscar Modal -->
+        <div class="modal fade" id="OSCARstaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Oscar Viudez Cuevas</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido a introducir por cada participante -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Juan Luis Modal -->
+        <div class="modal fade" id="JUANLUISstaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Juan Luis Soto Martínez</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido a introducir por cada participante -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pablo Modal -->
+        <div class="modal fade" id="PABLOstaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Pablo Izquierdo Martínez</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido a introducir por cada participante -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marcos Modal -->
+        <div class="modal fade" id="MARCOSstaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Marcos Díez Perez</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido a introducir por cada participante -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Agustin Modal -->
+        <div class="modal fade" id="AGUSTINstaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Agustin Levon Ghio Kissoyan</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido a introducir por cada participante -->
                     </div>
                 </div>
             </div>
